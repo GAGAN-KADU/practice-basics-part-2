@@ -410,7 +410,18 @@ def practice15():
     for ele in s1:
         s3 = ele + s2 +s3
     print(s3)
-practice15()
+#practice15()
+
+def practice16():
+    l1= [2,3,5,7]
+    for num in range(3,50):
+        if ((num % 2 == 0 ) or (num % 3 == 0) or (num % 5 == 0) or (num % 7 == 0) or (num % 11 == 0)):
+            print("number is not prime")
+        else:
+            l1.append(num)
+    print(l1)
+practice16()
+
     
 
 
