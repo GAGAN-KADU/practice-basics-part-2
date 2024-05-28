@@ -419,7 +419,8 @@ def practice16():
             print("number is not prime")
         else:
             l1.append(num)
-    print("this is the list 1",l1)
+    print(l1)
+    print ('test 2')
 practice16()
 
     
